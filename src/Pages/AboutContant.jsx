@@ -11,7 +11,7 @@ function AboutContant() {
       </div>
       <p className="pt-10 px-10  leading-6 custom-paragraph max-sm:text-center max-sm:px-2">
         Incorporated in the year 2007 at Ghaziabad (Uttar Pradesh, India), we
-        “JPS Engineers” are known as the prominent Manufacturer, Supplier and
+        “JPS Engineers” is known as the prominent Manufacturer, Supplier and
         Service Provider occupied in offering a comprehensive range of Jigs And
         Fixtures, Nylon Machine Parts, Plastic Machine Parts, Ropeway Parts,
         Brass Components, Metal Bushes and Plastic Bushes. Our offered products
