@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/Images/jsp.png";
+import Logo from "../assets/Images/JPSLogo.png";
 import { CgMenuRightAlt, CgClose } from "react-icons/cg";
 import { Link } from "react-router-dom";
 import { MdKeyboardArrowDown } from "react-icons/md";
@@ -28,7 +28,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center flex-w">
           {/* Logo Section */}
           <div className="flex items-center space-x-2">
-            <img className="w-28 h-20 max-md:w-24" src={Logo} alt="Logo" />
+            <img className="w-23 h-20 max-md:w-24" src={Logo} alt="Logo" />
             <Link
               to="/"
               className="flex items-center py-5 text-[#214fc6]"
