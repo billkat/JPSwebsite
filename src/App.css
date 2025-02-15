@@ -1,0 +1,356 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: Nunito Sans, sans-serif;
+}
+
+.navbar {
+  /* background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgb(169, 50, 248) 0%,
+    rgb(245, 92, 92) 50%,
+    rgb(235, 148, 26) 100%
+  ); */
+  /* background-color: #214fc6; */
+  background-color: white;
+}
+
+/* a:hover {
+  text-decoration: underline;
+} */
+
+img {
+  cursor: pointer;
+  filter: saturate(2);
+  cursor: url(/src/assets/Images/icons8-ropeway-64.png), auto;
+}
+
+.about-contant {
+  height: 70vh;
+  background-image: url(https://img.freepik.com/premium-photo/cable-cars-mount-foreground-mountains-background_144356-48256.jpg?w=1060);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.custom-paragraph::first-letter {
+  font-weight: 700;
+  font-size: 36px;
+  color: #214fc6;
+}
+
+@keyframes aboutSpinner {
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.image img {
+  height: 9rem;
+  width: 9rem;
+}
+
+.line {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #3498db;
+  z-index: 0;
+  top: 14rem;
+}
+
+@keyframes moveLeftToRight {
+  0% {
+    transform: translateX(-120%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.plastic,
+.machine,
+.fabric,
+.metal {
+  top: -38rem;
+  position: relative;
+  overflow: hidden;
+  margin: 1rem;
+  border-radius: 4rem;
+  box-sizing: 0 0 5px black;
+  background-color: white;
+  /* box-shadow: 0 18px 32px rgba(0, 0, 0, 0.37); */
+
+  border: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+.new_footer_area {
+  background: #fbfbfd;
+  width: 100%;
+  border-top: 3px solid black;
+  height: fit-content;
+}
+
+.new_footer_top {
+  padding: 20px 0px 200px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.new_footer_area .footer_bottom {
+  padding-top: 5px;
+  padding-bottom: 50px;
+}
+
+.footer_bottom {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  color: #7f88a6;
+  padding: 27px 0px;
+}
+
+.new_footer_top .company_widget p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #6a7695;
+  margin-bottom: 20px;
+}
+
+.new_footer_top .company_widget .f_subscribe_two .btn_get {
+  border-width: 1px;
+  margin-top: 20px;
+}
+
+.btn_get_two:hover {
+  background: transparent;
+  color: #5e2ced;
+}
+
+.btn_get:hover {
+  color: #fff;
+  background: #6754e2;
+  border-color: #6754e2;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.new_footer_top .f_widget.about-widget .f_list li a:hover {
+  color: #5e2ced;
+}
+
+.new_footer_top .f_widget.about-widget .f_list li a {
+  color: black;
+  text-decoration: none;
+}
+
+.new_footer_top .f_widget.about-widget .f_list li {
+  margin-bottom: 11px;
+}
+
+.f_widget.about-widget .f_list li:last-child {
+  margin-bottom: 0px;
+}
+
+.f_widget.about-widget .f_list li {
+  margin-bottom: 15px;
+}
+
+.f_widget.about-widget .f_list {
+  margin-bottom: 0px;
+}
+
+.new_footer_top .f_social_icon a {
+  line-height: 43px;
+  background: transparent;
+  border: 1px solid #e2e2eb;
+  font-size: 24px;
+}
+
+.f_social_icon a {
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 45px;
+  color: #858da8;
+  display: inline-block;
+  background: #ebeef5;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.ti-facebook:before {
+  content: "\e741";
+}
+
+.ti-twitter-alt:before {
+  content: "\e74b";
+}
+
+.ti-vimeo-alt:before {
+  content: "\e74a";
+}
+
+.ti-pinterest:before {
+  content: "\e731";
+}
+
+.btn_get_two {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #5e2ced;
+  border-color: #5e2ced;
+  color: #fff;
+}
+
+.btn_get_two:hover {
+  background: transparent;
+  color: #5e2ced;
+}
+
+.new_footer_top .f_social_icon a:hover {
+  background: #5e2ced;
+  border-color: #5e2ced;
+  color: white;
+}
+
+.new_footer_top .f_social_icon a + a {
+  margin-left: 8px;
+}
+
+.new_footer_top .f-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #263b5e;
+}
+
+.f_600 {
+  font-weight: 600;
+}
+
+.f_size_18 {
+  font-size: 18px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.new_footer_top .f_widget.about-widget .f_list li a {
+  color: #6a7695;
+}
+
+.footer_bg {
+  position: absolute;
+  bottom: 0;
+  background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigB8iI5tb8WSVBuVUGc9UjjB8O0708X7Fdic_4O1LT4CmLHoiwhanLXiRhe82yw0R7LgACQ2IhZaTY0hhmGi0gYp_Ynb49CVzfmXtYHUVKgXXpWvJ_oYT8cB4vzsnJLe3iCwuzj-w6PeYq_JaHmy_CoGoa6nw0FBo-2xLdOPvsLTh_fmYH2xhkaZ-OGQ/s16000/footer_bg.png")
+    no-repeat scroll center 0;
+  width: 100%;
+  height: 266px;
+  z-index: 0;
+}
+
+.new_footer_top .footer_bg .linefoot {
+  position: relative;
+  top: 4.1rem;
+  transform: rotate(-3deg);
+  width: 100%;
+  height: 1px;
+  background-color: rgba(65, 62, 62, 0.669);
+  z-index: 4;
+}
+
+.new_footer_top .footer_bg .linefoot2 {
+  position: relative;
+  top: 5.5rem;
+  width: 100%;
+  height: 1px;
+  background-color: #3498db;
+  z-index: 0;
+}
+
+.new_footer_top .footer_bg .footer_bg_one {
+  background: url(/src/assets/Images/ropeway22-removebg-preview.png) no-repeat
+    center center;
+  width: 300px;
+  height: 160px;
+  background-size: 100%;
+  position: absolute;
+  bottom: -5rem;
+  border-top: 1px solid black;
+  left: 30%;
+  zoom: 0.8;
+  /* -webkit-animation: myfirst 22s linear infinite; */
+  animation: diagonal-move-anim 22s linear infinite alternate;
+  transform: rotate(-3deg);
+  z-index: 4;
+}
+
+.new_footer_top .footer_bg .footer_bg_three {
+  background: url(/src/assets/Images/ropewaynew.png) no-repeat center center;
+  width: 10rem;
+  height: 100px;
+  background-size: 100%;
+  top: 5rem;
+  left: 38%;
+  transform: rotate(-1deg);
+  z-index: 0;
+  position: absolute;
+  -webkit-animation: myfirst 30s linear infinite alternate;
+  animation: myfirst 30s linear infinite;
+}
+
+@keyframes diagonal-move-anim {
+  from {
+    bottom: 1.5rem;
+    left: -30rem;
+  }
+
+  to {
+    bottom: 12rem;
+    left: 160rem;
+  }
+}
+
+@-moz-keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst {
+  0% {
+    left: -25%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes myfirst2 {
+  0% {
+    left: -25%;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+/*************footer End*****************/
