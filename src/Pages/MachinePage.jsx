@@ -28,7 +28,7 @@ function MachinePage() {
         continual improvement and a customer-centric approach, we are your
         reliable partner for precision engineering and manufacturing. Visit our
         machine shop to see how we can bring your projects to life with
-        unrivaled precision and efficiency.
+        unrivaled precision and efficiency
       </p>
       <MachineShop />
     </>
